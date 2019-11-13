@@ -1,0 +1,4 @@
+# Documentation: https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+[build-system]
+requires = ["setuptools", "wheel"]  # replaces 'setup_requires' in setup.[py|cfg]
+build-backend = "setuptools.build_meta"
